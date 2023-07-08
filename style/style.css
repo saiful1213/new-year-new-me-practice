@@ -7,12 +7,6 @@
    font-family: 'Work Sans', sans-serif;
 }
 
-/* all common style  */
-
-
-
-
-
 /* header style here  */
 header {
    max-width: 100vw;
@@ -22,25 +16,21 @@ header {
    background-size: cover;
    background-image: url('../images/banner/banner2.png');
 }
-
 .header-container {
    text-align: right;
    padding: 120px 210px;
 }
-
 .header-title {
    color: #151414;
    font-size: 65px;
    font-weight: 700;
 }
-
 .header-desc {
    text-align: right;
    color: #444343;
    margin: 30px 0px;
    line-height: 26px;
 }
-
 .header-btn {
    font-size: 20px;
    font-weight: 600;
@@ -50,7 +40,6 @@ header {
    color: #fff;
    border: 0;
 }
-
 /* banner part style  */
 .banner-container {
    display: flex;
@@ -63,22 +52,50 @@ header {
    font-size: 40px;
    font-weight: 700;
 }
-.banner-desc{
+.banner-desc {
    color: #444343;
    line-height: 26px;
    margin: 20px 0;
 }
-
-.list-container li{
+.list-container li {
    margin: 10px 0;
    list-style: none;
 }
-
-.list-container li::before{
+.list-container li::before {
    content: '\f00c';
    font-family: 'Font Awesome 6 Free';
    font-weight: bold;
    color: green;
    margin-right: 10px;
 }
-
+/* skill part style  */
+.skills {
+   width: 1000px;
+   border: 1px solid;
+   margin: 100px auto;
+}
+.skills h3 {
+   text-align: center;
+   color: #151414;
+   font-size: 40px;
+   font-weight: 700;
+}
+.skill-container {
+   display: flex;
+   justify-content: space-between;
+   margin-top: 50px;
+}
+.skill-parent{
+   text-align: center;
+}
+.skill-title {
+   color: #151414;
+   font-size: 30px;
+   font-weight: 700;
+   margin-top: 22px;
+   margin-bottom: 15px;
+}
+.skill-sub-title {
+   color: #737272;
+   font-size: 25px;
+}
