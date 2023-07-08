@@ -50,3 +50,35 @@ header {
    color: #fff;
    border: 0;
 }
+
+/* banner part style  */
+.banner-container {
+   display: flex;
+   width: 1000px;
+   margin: 100px auto;
+   align-items: center;
+}
+.banner-title {
+   color: #151414;
+   font-size: 40px;
+   font-weight: 700;
+}
+.banner-desc{
+   color: #444343;
+   line-height: 26px;
+   margin: 20px 0;
+}
+
+.list-container li{
+   margin: 10px 0;
+   list-style: none;
+}
+
+.list-container li::before{
+   content: '\f00c';
+   font-family: 'Font Awesome 6 Free';
+   font-weight: bold;
+   color: green;
+   margin-right: 10px;
+}
+
